@@ -4,8 +4,8 @@ import sys
 import datetime
 
 # Get secrets from GitHub Environment
-TOKEN = os.getenv("TELEGRAM_TOKEN")
-CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
+TOKEN = os.environ["TELEGRAM_TOKEN"]
+CHAT_ID = os.environ["TELEGRAM_CHAT_ID"]
 DATA_FILE = "comps.txt"
 
 today = datetime.date.today().isoformat()
