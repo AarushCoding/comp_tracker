@@ -23,3 +23,4 @@ BoltonSpring2026
 CreweSpring2026
 GlasgowFavEveningVI2026
 StevenageMarch2026
+GlasgowBlindEveningSpring2026
