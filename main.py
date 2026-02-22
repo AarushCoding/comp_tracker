@@ -12,7 +12,7 @@ DATA_FILE = "comps.txt"
 # We use 'per_page=100' to get more results at once.
 # We use 'start=' with today's date so we don't miss upcoming ones.
 today = datetime.date.today().isoformat()
-API_URL = f"https://www.worldcubeassociation.org/api/v0/competitions?start={today}&per_page=100"
+API_URL = "https://www.worldcubeassociation.org/api/v0/competitions?region=United+Kingdom&per_page=100"
 
 def send_telegram(msg):
     url = f"https://api.telegram.org/bot{TOKEN}/sendMessage"
