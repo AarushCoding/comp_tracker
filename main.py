@@ -8,7 +8,7 @@ CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
 DATA_FILE = "comps.txt"
 
 # API URL: Specifically for the UK, fetching 100 results to ensure we see everything
-API_URL = "https://www.worldcubeassociation.org/api/v0/competitions?region_id=19&per_page=100&upcoming=true"
+API_URL = "https://www.worldcubeassociation.org/api/v0/competitions?country_iso2=GB&per_page=100&upcoming=true"
 
 def send_telegram(msg):
     url = f"https://api.telegram.org/bot{TOKEN}/sendMessage"
