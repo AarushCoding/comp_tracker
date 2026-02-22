@@ -51,7 +51,7 @@ for c in comps:
         
         # Add to local list to save later
         with open(DATA_FILE, "a") as f:
-            f.write(c['id'] + "\n")
+            f.write(c['name'] + "\n")
         new_found = True
 
 if not new_found:
