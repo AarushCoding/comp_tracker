@@ -43,21 +43,25 @@ new_found_count = 0
 for c in comps:
     comp_id = c.get('id')
     
+                    
     # If the ID is not in our seen_ids list, it's a new one!
     if comp_id and comp_id not in seen_ids:
         name = c.get('name', 'N/A')
         city = c.get('city', 'N/A')
         date = c.get('start_date', 'N/A')
         reg_open = c.get('registration_open', 'Not set')
+        events = c.get('event_ids', 'N/A')
+                    
         link = c.get('url', f"https://www.worldcubeassociation.org/competitions/{comp_id}")
 
         # Simple, standard message for every UK comp
         message = (
             "🇬🇧 *NEW UK COMPETITION!*\n\n"
-            f"🏆 *Name:* {name}\n"
-            f"📍 *Location:* {city}\n"
-            f"📅 *Date:* {date}\n"
-            f"🕒 *Reg Opens:* {reg_open}\n\n"
+            f"*Name:* {name}\n"
+            f"*Location:* {city}\n"
+            f"*Date:* {date}\n"
+            f"*Reg Opens:* {reg_open}\n"
+            f"*Events:*  {events}\n\n"
             f"[View Details on WCA]({link})"
         )
         
