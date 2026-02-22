@@ -2,14 +2,14 @@ name: WCA UK Monitor
 
 on:
   schedule:
-    - cron: '0 18 */3 * *'  # Runs at 00:00 every 3 days
-  workflow_dispatch:      # Allows you to click "Run" manually for testing
-
+    - cron: '0 * * * *'
+  workflow_dispatch:
+  
 jobs:
   build:
     runs-on: ubuntu-latest
     permissions:
-      contents: write     # Required for the bot to update comps.txt
+      contents: write
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
