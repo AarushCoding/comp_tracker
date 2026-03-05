@@ -2,7 +2,7 @@ name: WCA UK Monitor
 
 on:
   schedule:
-    - cron: '0 * * * *'
+    - cron: '* * * * *'
   workflow_dispatch:
   
 jobs:
