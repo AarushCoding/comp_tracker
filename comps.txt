@@ -58,3 +58,5 @@ AirdrieFTODayOne2027
 GuildfordFTODayOne2027
 ManchesterFTODayOne2027
 WestonsuperMareWinter2027
+BrightonEvenDay2027
+BrightonOddDay2027
