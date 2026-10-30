@@ -62,3 +62,6 @@ BrightonEvenDay2027
 BrightonOddDay2027
 NorfolkWinter2027
 BedfordshireBLDDay2027
+GlasgowBeginners2027
+GlasgowOpen2027
+StevenageJanuary2027
