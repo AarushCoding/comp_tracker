@@ -65,3 +65,4 @@ BedfordshireBLDDay2027
 GlasgowBeginners2027
 GlasgowOpen2027
 StevenageJanuary2027
+CheltenhamFTODayOne2027
